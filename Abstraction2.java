@@ -2,7 +2,7 @@ abstract class Shape {
  
     public abstract double area();
  
-    public abstract double perimeter();
+    public abstract double perimeter();  
 }
  
 class Rectangle extends Shape {
@@ -54,4 +54,5 @@ public class Abstraction2{
         System.out.println("Circle Area: " + circle.area());
         System.out.println("Circle Perimeter: " + circle.perimeter());
     }
+
 }
